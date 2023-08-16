@@ -1,0 +1,158 @@
+.nut-tabbar-bottom.nut-tabbar-safebottom[data-v-204742f5] {
+    height: 50px!important;
+}
+.nut-tabbar[data-v-204742f5] {
+    padding-top: 11px;
+    padding-bottom: 0;
+    border-top: 0;
+    background: url(data:image/png;base64,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) top no-repeat;
+    height: 67px!important;
+}
+.nut-tabbar:last-child {
+    border-right: 0;
+}
+.nut-tabbar-safebottom {
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+.nut-tabbar-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 888;
+}
+.nut-tabbar {
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    background: #fff;
+    height: 50px;
+}
+.nut-tabbar-item[data-v-204742f5] {
+    color: #370139;
+    padding-top: 10px;
+}
+.nut-tabbar-item__icon--unactive {
+    color: gray;
+}
+
+.nut-tabbar-item {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #fa2c19;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nut-tabbar-item_icon-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+a {
+    text-decoration: none !important;
+}
+.nut-tabbar-item_icon-box_icon {
+    display: block;
+    background-size: 100% 100%;
+    background-position: 50%;
+}
+.nut-tabbar-item_icon-box_nav-word {
+    font-size: 10px;
+    line-height: normal;
+    margin-top: auto;
+    display: block;
+}
+.nut-tabbar-item_icon-box_nav-word {
+    font-size: 10px;
+    line-height: normal;
+    margin-top: auto;
+    display: block;
+}
+.show-list[data-v-204742f5] {
+    margin-top: -27px;
+    background: none;
+    background-size: 60px;
+    width: 75px;
+    min-width: 75px;
+    height: 75px;
+    padding: 0 6px 0 3px;
+}
+.nut-tabbar-item[data-v-204742f5] {
+    color: #370139;
+    padding-top: 10px;
+}
+.nut-tabbar-item {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #fa2c19;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-list .nut-tabbar-item_icon-box .nut-tabbar-item_icon-box_icon {
+    width: 69px!important;
+    height: 69px!important;
+}
+.nut-tabbar-item_icon-box_icon {
+    display: block;
+    background-size: 100% 100%;
+    background-position: 50%;
+}
+.nut-icon {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    --animate-duration: 1s;
+    --animate-delay: 0s;
+}
+.nutui-iconfont {
+    font-family: nutui-iconfont!important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.nut-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nut-icon-link:before {
+    content: "\e67c";
+}
+.nut-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nut-icon-date:before {
+    content: "\e67a";
+}
+.nut-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nut-icon-my:before {
+    content: "\e65e";
+}

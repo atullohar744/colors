@@ -1,0 +1,67 @@
+Base Url: https://adminapp.tech/farmhouse/
+
+Get Settings:
+url: vendor/settings
+
+Register:
+url: vendor/register
+params : {fname:"test", lname:"test",email:"test@test.com",phone:"9168109933", dob: "1991-05-07"password:"test"}
+
+Login:
+url: vendor/login
+params : {"email":"test@test.com", "password":"admin"}
+
+Login With Phone:
+url: vendor/loginWithPhone
+params : {"phone":"1234567890"}
+Note: Call when OTP verified successfully.
+
+Get profile:
+url: vendor/getprofile
+params : {userid:"1"}
+
+Update Profile:
+url: vendor/updateprofile
+params : {userid:"1", fname:"test", lname:"est",email:"test@test.com",phone:"9168109933",password:"test", "imgpath":'images.test.jpeg'}
+
+Change Password:
+url: vendor/changepswd
+params : {userid:"1",oldPassword:"test",password:"test"}
+
+Categories:
+url: vendor/categories
+
+Amenities:
+url: vendor/amenities
+
+Add Amenities
+url: vendor/addAmenities
+params: {name:"test": imgpath:"test.png"}
+
+Update Amenities
+url: vendor/addAmenities
+params: {name:"test": imgpath:"test.png", id: "2"}
+
+Houses:
+url: vendor/houses
+params : {userid:"2"}
+
+Add House:
+url: vendor/addHouse
+params: {userid: "2", name:"test", phone: "1234567890", address: "test address", yards: "400", bedrooms: 2, day_capacity: 5, night_capacity: 4, category: "2", amenities:"4,2,6", publish:0/1, recommended:0/1, amount: 10000, discount: 5, rules: "Terms and conditions", imgpath:"test.png"}
+
+Update House:
+url: vendor/addHouse
+params: {userid: "2", name:"test", phone: "1234567890", address: "test address", yards: "400", bedrooms: 2, day_capacity: 5, night_capacity: 4, category: "2", amenities:"4,2,6", publish:0/1, recommended:0/1, amount: 10000, discount: 5, rules: "Terms and conditions", imgpath:"test.png", id: "2"}
+
+House Details:
+url: vendor/houseDetails
+params:{house: "2"}
+
+Delete House:
+url: vendor/deleteHouse
+params:{house: "2", userid:"1"}
+
+Rewards:
+url: vendor/rewards
+params : {"userid":"4"}

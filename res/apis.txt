@@ -1,0 +1,76 @@
+Base Url: https://adminapp.tech/colors/
+
+Get Settings:
+url: settings
+
+Register:
+url: api/register
+params : {name:"test test",email:"test@test.com",phone:"9168109933",password:"test"}
+
+Login:
+url: api/loginWithPhone
+params : {"phone":"1234567890", "password":"admin"}
+
+Get profile:
+url: api/getprofile
+params : {userid:"1"}
+
+Update Profile:
+url: api/updateprofile
+params : {userid:"1",name:"test est",email:"test@test.com",phone:"9168109933",password:"test", "imgpath":'images.test.jpeg'}
+
+Change Password:
+url: api/changepswd
+params : {userid:"1",oldPassword:"test",password:"test"}
+
+Categories:
+url: api/categories
+
+Amenities:
+url: api/amenities
+
+Houses:
+url: api/houses
+
+Recommended Houses:
+url: api/recommendedHouses
+
+Visited Houses
+Houses:
+url: api/visitedHouses
+
+More Places
+Houses:
+url: api/morePlaces
+
+House Details:
+url: api/houseDetails
+params:{house: "2"}
+
+Book Now:
+url: api/bookNow
+params : {"userid":"4", house: 2, check_in:'21-06-2023', check_out:'22-06-2023', checkin_time:'10am', checkout_time:'9Am', guest:5, rent:"1000", discount: '100', payable_amount: 900}
+
+My Orders:
+url: api/myOrders
+params : {"userid":"4"}
+
+Order Details:
+url: api/orderDetails
+params : {userid:"4", id: "1"}
+
+Rewards:
+url: api/rewards
+params : {"userid":"4"}
+
+Rating And Comment:
+url: api/ratingAndComment
+params : {"userid":"4", house: 2, rating: 4, comments: "nice place"}
+
+Reviews:
+url: api/reviews
+params : {"userid":"4", "house":"2"}
+
+App Feedback:
+url: api/appFeedback
+params : {"userid":"4", rating: 4, comments: "nice app"}
